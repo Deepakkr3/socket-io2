@@ -1,0 +1,87 @@
+/* src/App.css */
+.app {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 300px;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.ticket-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ticket-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.ticket-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.ticket-form input,
+.ticket-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.ticket-form button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.ticket-form button:hover {
+  background-color: #0056b3;
+}
+
+.chat ul {
+  list-style-type: none;
+  padding: 0;
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.chat li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.chat input {
+  width: calc(100% - 100px);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.chat button {
+  width: 80px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.chat button:hover {
+  background-color: #0056b3;
+}
